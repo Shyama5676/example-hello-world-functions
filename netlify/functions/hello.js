@@ -7,9 +7,9 @@
 
 
 exports.handler = async event => {
-    const subject = DivinePujaService
+    
     return {
         statusCode: 200,
-        body: `>>Hello World This  is Puja service details... ${subject}!`,
+        body: `>>Hello World This  is Puja service details... `,
     }
 }
